@@ -1,0 +1,43 @@
+.add {
+  width: 70%;
+  margin-left: max(5vw, 25px);
+  margin-top: 50px;
+  color: #6d6d6d;
+  font-size: 16px;
+}
+.add form {
+  gap: 20px;
+}
+.add-image-upload img {
+  width: 120px;
+}
+.add-product-name,
+.add-prodct-desc {
+  width: max(40%, 280px);
+}
+.add-product-name input,
+.add-prodct-desc textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+}
+.add-category-pri {
+  display: flex;
+  gap: 30px;
+}
+.add-category-pri select,
+.add-category-pri input {
+  max-width: 120pz;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+}
+.add-button {
+  max-width: 120px;
+  border: none;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
